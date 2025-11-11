@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+source/
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Test cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Docker artifacts
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ignore test cache and build artifacts
+tests/__pycache__/
+
+# Ignore dist and build folders
+dist/
+build/
